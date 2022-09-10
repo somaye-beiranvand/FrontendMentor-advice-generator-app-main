@@ -1,0 +1,46 @@
+.card {
+  max-width: 90%;
+  background-color: var(--Dark-Grayish-Blue);
+  font-size: 2rem;
+  padding: 1.8em 1em;
+  border-radius: 1.5rem;
+  position: relative;
+}
+.card:hover {
+  box-shadow: var(--Grayish-Blue) 0px 0px 3rem 1rem !important;
+}
+.card *:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.card__text {
+  max-width: 23ch;
+  text-align: center;
+  color: var(--primary-color);
+}
+.card__title {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  font-weight: 800;
+}
+.card__devider source,
+img {
+  max-width: 100%;
+}
+.card__btn {
+  width: 6.5rem;
+  height: 6.5rem;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  right: 50%;
+  top: 100%;
+  transform: translate(50%, -50%);
+  background: url(../images/icon-dice.svg), var(--secondary-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s;
+}
+.card__btn:hover {
+  box-shadow: 0 0 2.5rem var(--secondary-color) !important;
+}

@@ -1,0 +1,53 @@
+/* manrope-regular - latin */
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v13-latin-regular/manrope-v13-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/manrope-v13-latin-regular/manrope-v13-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/manrope-v13-latin-regular/manrope-v13-latin-regular.woff2")
+      format("woff2"),
+    url("../fonts/manrope-v13-latin-regular/manrope-v13-latin-regular.woff")
+      format("woff"),
+    url("../fonts/manrope-v13-latin-regular/manrope-v13-latin-regular.ttf")
+      format("truetype"),
+    url("../fonts/manrope-v13-latin-regular/manrope-v13-latin-regular.svg#Manrope")
+      format("svg");
+}
+/* manrope-800 - latin */
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/manrope-v13-latin-800/manrope-v13-latin-800.eot");
+  src: local(""),
+    url("../fonts/manrope-v13-latin-800/manrope-v13-latin-800.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/manrope-v13-latin-800/manrope-v13-latin-800.woff2")
+      format("woff2"),
+    url("../fonts/manrope-v13-latin-800/manrope-v13-latin-800.woff")
+      format("woff"),
+    url("../fonts/manrope-v13-latin-800/manrope-v13-latin-800.ttf")
+      format("truetype"),
+    url("../fonts/manrope-v13-latin-800/manrope-v13-latin-800.svg#Manrope")
+      format("svg");
+}
+
+:root {
+  --primary-color: hsl(193, 38%, 86%);
+  --secondary-color: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --bg-color: hsl(218, 23%, 16%);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  font-family: "Manrope";
+  font-weight: 800;
+  background-color: var(--bg-color);
+}
