@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/esponsive-advicegeneratorapp-using-jquery-KMOdsj18ie)
 - [Live Site URL](https://somaye-beiranvand.github.io/FrontendMentor-advice-generator-app-main/)
 
 ## My process
