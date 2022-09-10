@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/responsive-advicegeneratorapp-using-jquery-KMOdsj18ie)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-advicegeneratorapp-using-jquery-KMOdsj18ie)
 - [Live Site URL](https://somaye-beiranvand.github.io/FrontendMentor-advice-generator-app-main/)
 
 ## My process
